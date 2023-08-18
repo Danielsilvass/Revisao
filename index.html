@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão HTML e CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ol>
+                <li>
+                    <a href="#listas">Lista</a>
+                </li>
+                <li>
+                    <a href="#tabelas">Tabelas</a>
+                </li>
+                <li>
+                    <a href="#formularios">Formulários</a>
+                </li>
+            </ol>
+        </nav>
+    </header>
+
+    <main>
+        <section id="listas">
+            <h2>Listas</h2>
+            <div>
+                
+                <ul type="1">
+                    <h3>Espostes</h3>
+                    <li>Basquete</li>
+                    <li>Volei</li>
+                    <li>Futebol</li>
+                    <li>Atletismo</li>
+                    <li>Natação</li>
+                </ul>
+
+                <ol>
+                    <h3>Coisas utilizadas:</h3>
+                    <li>Bola de Basquete</li>
+                    <li>Bola de Volei</li>
+                    <li>Bola de futebol</li>
+                    <li>Tenis de corrida</li>
+                    <li>Touca de Natação</li>
+                </ol>
+            </div>
+        </section>
+
+        <section id="tabelas">
+            <h2>Tabelas</h2>
+        <div>
+            <table>
+                <tr>
+                    <th>Esportes</th>
+                    <th>Materiais</th>
+                    <th>Jogadores</th>
+                    <th>Pontuação</th>
+                </tr>
+                <tr>
+                    <td>Basquete</td>
+                    <td>Bola de basquete</td>
+                    <td>Jordan</td>
+                    <td>32.292</td>
+                </tr>
+                <tr>
+                    <td>Volei</td>
+                    <td>Bola de Volei</td>
+                    <td>Allan</td>
+                    <td>6.524</td>
+                </tr>
+                <tr>
+                    <td>Futebol</td>
+                    <td>Bola de futebol</td>
+                    <td>Messi</td>
+                    <td>752</td>
+                </tr>
+                <tr>
+                    <td>HandBall</td>
+                    <td>Bola de HandBall</td>
+                    <td>Mikkel Hansen</td>
+                    <td>563</td>
+                </tr>
+                <tr>
+                    <td>Hoquei</td>
+                    <td>Disco</td>
+                    <td>Wayne Gretzky</td>
+                    <td>894</td>
+                </tr>
+                <tr>
+                    <td>Corrida</td>
+                    <td>Tenis</td>
+                    <td>usain bolt</td>
+                    <td>112</td>
+                </tr>
+                <tr>
+                    <td>Ping-Pong</td>
+                    <td>Raquete</td>
+                    <td>Dimitrij Ovtcharov</td>
+                    <td>80</td>
+                </tr>
+            </table>
+        </div>
+        </section>
+
+        <section id="formularios">
+            <h2>Formulários</h2>
+            <div>
+            <form action="">
+                <fieldset>
+                  <!-- <legend>Dados Pessoais</legend> -->
+                  <legend>Dados Pessoais</legend>
+                  <input type="text" id="nome" placeholder="Nome:">
+                  <input type="text" id="sobrenome" placeholder="Sobrenome:">
+                  <input type="text" id="usuario" placeholder="Nome de Usuário:">
+                  <input type="email" id="email" placeholder="E-mail:">
+                  <input type="password" id="senha" placeholder="Senha:">
+                  <input type="password" id="comfirmacao-senha" placeholder="Confirmação de Senha:">
+                  <div>
+                    <input type="checkbox" id="termos">
+                    <label for="termos">Eu concondo com os Termos</label>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
